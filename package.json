@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Russell Carter",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",
