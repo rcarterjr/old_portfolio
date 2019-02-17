@@ -9,18 +9,19 @@ import thumb01 from '../assets/images/thumbs/Scala.jpeg'
 import thumb02 from '../assets/images/thumbs/01.png'
 import thumb03 from '../assets/images/thumbs/01.png'
 import thumb04 from '../assets/images/thumbs/01.png'
-import thumb05 from '../assets/images/thumbs/01.png'
+import thumb05 from '../assets/images/thumbs/etch.png'
 import thumb06 from '../assets/images/thumbs/01.png'
 
 import full01 from '../assets/images/fulls/compilerDemo.gif'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
+import full05 from '../assets/images/fulls/etchsketchdemo.gif'
 import full06 from '../assets/images/fulls/06.jpg'
 
 import resume from '../../public/RussellCarterResume.pdf'
 
+// adjust picture sizes to 370 x 217 before importing them
 const DEFAULT_IMAGES = [
   {
     id: '1',
@@ -56,7 +57,7 @@ const DEFAULT_IMAGES = [
     src: full05,
     thumbnail: thumb05,
     caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    description: 'Etch a sketch using a HTML canvas and JavaScript',
   },
   {
     id: '6',
@@ -184,7 +185,7 @@ class HomeIndex extends React.Component {
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
-                <form method="post" action="send">
+                <form method="post" action="/contact">
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
@@ -211,12 +212,13 @@ class HomeIndex extends React.Component {
                       />
                     </div>
                   </div>
+
+                  <ul className="actions">
+                    <li>
+                      <input type="submit" value="Send Message" />
+                    </li>
+                  </ul>
                 </form>
-                <ul className="actions">
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
               </div>
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">

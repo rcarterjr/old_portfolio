@@ -18,9 +18,7 @@ class Header extends React.Component {
               )}
             </button>
             <div className="inner">
-              <a href="#" className="image avatar">
-                <img src={avatar} alt="" />
-              </a>
+              <img src={avatar} alt="" className="image avatar" />
               <h1>
                 <strong>I am Russell</strong>, and this is
                 <br />
