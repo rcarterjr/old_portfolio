@@ -27,8 +27,8 @@ const DEFAULT_IMAGES = [
     id: '1',
     src: full01,
     thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Gittex to HTML compiler. Click for demo.',
+    caption: 'Compiler',
+    description: 'Gittex to HTML compiler made in Scala. Click for demo.',
   },
   {
     id: '2',
@@ -48,7 +48,7 @@ const DEFAULT_IMAGES = [
     id: '4',
     src: full04,
     thumbnail: thumb04,
-    caption: 'Photo 4',
+    caption: 'React Portfolio',
     description:
       'My first portfolio that I created with ReactJS and Bootstrap.',
   },
@@ -56,7 +56,7 @@ const DEFAULT_IMAGES = [
     id: '5',
     src: full05,
     thumbnail: thumb05,
-    caption: 'Photo 5',
+    caption: 'Etch-A-Sketch',
     description: 'Etch a sketch using a HTML canvas and JavaScript',
   },
   {
@@ -185,7 +185,7 @@ class HomeIndex extends React.Component {
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
-                <form method="post" action="/contact">
+                <form method="post" action="/send">
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
