@@ -32,20 +32,6 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '2',
-    src: full02,
-    thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '3',
-    src: full03,
-    thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '4',
     src: full04,
     thumbnail: thumb04,
     caption: 'React Portfolio',
@@ -53,19 +39,33 @@ const DEFAULT_IMAGES = [
       'My first portfolio that I created with ReactJS and Bootstrap.',
   },
   {
-    id: '5',
+    id: '3',
+    src: full02,
+    thumbnail: thumb02,
+    caption: 'Photo 2',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '4',
     src: full05,
     thumbnail: thumb05,
     caption: 'Etch-A-Sketch',
     description: 'Etch a sketch using a HTML canvas and JavaScript',
   },
-  {
-    id: '6',
-    src: full06,
-    thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
+  // {
+  //   id: '5',
+  //   src: full03,
+  //   thumbnail: thumb03,
+  //   caption: 'Photo 3',
+  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  // },
+  // {
+  //   id: '6',
+  //   src: full06,
+  //   thumbnail: thumb06,
+  //   caption: 'Photo 6',
+  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  // },
 ]
 
 class HomeIndex extends React.Component {
