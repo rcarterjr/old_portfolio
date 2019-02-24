@@ -127,18 +127,18 @@ class HomeIndex extends React.Component {
           <section id="one">
             <header className="major">
               <h2>
-                I'm a senior Computer Science student
-                <br />
-                with experience in full stack development
+                I'm a senior Computer Science student with experience in full
+                stack development
               </h2>
             </header>
             <p>
-              While at Towson University, I have learned data structures,
-              algorithms, design patterns, and simulations.
+              While at Towson University, I have learned how to constuctively
+              use data structures, algorithms, algorithm analysis, and design
+              patterns.
               <br />
-              In my own time, I have been focusing on modern JavaScript (ES6). I
-              love working with ReactJS, Node.js, Express.js, and Typescript. If
-              you would like to learn more about me, check out my resume below.
+              In my own time, I have been focusing on popular frameworks such as
+              ReactJS and node.js. I love working modern JavaScript. If you
+              would like to learn more about me, check out my resume below.
             </p>
             <ul className="actions">
               <li>
