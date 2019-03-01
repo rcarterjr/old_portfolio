@@ -2,22 +2,15 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/Scala.jpeg'
 import thumb02 from '../assets/images/thumbs/01.png'
-import thumb03 from '../assets/images/thumbs/01.png'
-import thumb04 from '../assets/images/thumbs/01.png'
 import thumb05 from '../assets/images/thumbs/etch.png'
-import thumb06 from '../assets/images/thumbs/01.png'
+import thumb06 from '../assets/images/thumbs/octocat.png'
 
 import full01 from '../assets/images/fulls/compilerDemo.gif'
-import full02 from '../assets/images/fulls/02.jpg'
-import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/etchsketchdemo.gif'
-import full06 from '../assets/images/fulls/06.jpg'
 
 import resume from '../../public/RussellCarterResume.pdf'
 
@@ -32,15 +25,15 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '2',
-    src: full04,
-    thumbnail: thumb04,
+    src: full01, // change
+    thumbnail: thumb02,
     caption: 'React Portfolio',
     description:
       'My first portfolio that I created with ReactJS and Bootstrap.',
   },
   {
     id: '3',
-    src: full02,
+    src: full01, // change
     thumbnail: thumb02,
     caption: 'Photo 2',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
@@ -52,20 +45,22 @@ const DEFAULT_IMAGES = [
     caption: 'Etch-A-Sketch',
     description: 'Etch a sketch using a HTML canvas and JavaScript',
   },
-  // {
-  //   id: '5',
-  //   src: full03,
-  //   thumbnail: thumb03,
-  //   caption: 'Photo 3',
-  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  // },
-  // {
-  //   id: '6',
-  //   src: full06,
-  //   thumbnail: thumb06,
-  //   caption: 'Photo 6',
-  //   description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  // },
+  {
+    id: '5',
+    src: full05,
+    thumbnail: thumb06,
+    caption: 'Coding Challenge',
+    description:
+      'One vs one coding challenege web app built in ReactJS, Node.js, and MongoDB',
+  },
+  {
+    id: '6',
+    src: full05,
+    thumbnail: thumb06,
+    caption: 'Hotel Management',
+    description:
+      'Hotel management project created with ReactJS, Node.js, and MySQL.',
+  },
 ]
 
 class HomeIndex extends React.Component {
@@ -156,7 +151,6 @@ class HomeIndex extends React.Component {
 
           <section id="two">
             <h2>Projects</h2>
-
             <Gallery
               images={DEFAULT_IMAGES.map(
                 ({ id, src, thumbnail, caption, description }) => ({
@@ -167,7 +161,8 @@ class HomeIndex extends React.Component {
                 })
               )}
             />
-
+            The above two projects are term projects for my last year at the
+            university. Check github to watch them come to life!
             {/* <ul className="actions">
               <li>
                 <a href="#" className="button">
