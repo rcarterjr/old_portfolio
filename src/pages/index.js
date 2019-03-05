@@ -6,15 +6,17 @@ import Gallery from '../components/Gallery'
 
 import thumb01 from '../assets/images/thumbs/Scala.jpeg'
 import thumb02 from '../assets/images/thumbs/01.png'
+import weatherappThumb from '../assets/images/thumbs/weatherappThumb.png'
 import thumb05 from '../assets/images/thumbs/etch.png'
 import thumb06 from '../assets/images/thumbs/octocat.png'
 
 import full01 from '../assets/images/fulls/compilerDemo.gif'
+import weatherappFull from '../assets/images/fulls/weatherappFull.png'
 import full05 from '../assets/images/fulls/etchsketchdemo.gif'
 
 import resume from '../../public/RussellCarterResume.pdf'
 
-// adjust picture sizes to 370 x 217 before importing them
+// adjust thumb sizes to 370 x 217 before importing them
 const DEFAULT_IMAGES = [
   {
     id: '1',
@@ -25,7 +27,7 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '2',
-    src: full01, // change
+    src: thumb02,
     thumbnail: thumb02,
     caption: 'React Portfolio',
     description:
@@ -33,17 +35,18 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '3',
-    src: full01, // change
-    thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    src: weatherappFull,
+    thumbnail: weatherappThumb,
+    caption: 'React Weather App',
+    description:
+      'Retrieves the weather based on location from the OpenWeather API',
   },
   {
     id: '4',
     src: full05,
     thumbnail: thumb05,
     caption: 'Etch-A-Sketch',
-    description: 'Etch a sketch using a HTML canvas and JavaScript',
+    description: 'Etch a sketch using a HTML canvas and vanilla JavaScript',
   },
   {
     id: '5',
