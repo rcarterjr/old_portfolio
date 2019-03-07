@@ -181,47 +181,11 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Feel free to email, call, or text me at antime! I am wrapping up
-              my last semester of college but I will get back to you as soon as
-              possible!
+              Feel free to email, call, or text me at antime. I am wrapping up
+              my last semester at the university, but I will get back to you as
+              soon as possible!
             </p>
             <div className="row">
-              {/* <div className="8u 12u$(small)">
-                <form method="post">
-                  <div className="row uniform 50%">
-                    <div className="6u 12u$(xsmall)">
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="6u 12u$(xsmall)">
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div className="12u">
-                      <textarea
-                        name="message"
-                        id="message"
-                        placeholder="Message"
-                        rows="4"
-                      />
-                    </div>
-                  </div>
-
-                  <ul className="actions">
-                    <li>
-                      <input type="submit" value="Send Message" />
-                    </li>
-                  </ul>
-                </form>
-              </div> */}
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
                   <li>
