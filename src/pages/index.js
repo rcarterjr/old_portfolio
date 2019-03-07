@@ -181,7 +181,7 @@ class HomeIndex extends React.Component {
           <section id="three">
             <h2>Get In Touch</h2>
             <p>
-              Feel free to email, call, or text me at antime. I am wrapping up
+              Feel free to email, call, or text me at anytime. I am wrapping up
               my last semester at the university, but I will get back to you as
               soon as possible!
             </p>
