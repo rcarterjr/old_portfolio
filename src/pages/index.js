@@ -133,7 +133,7 @@ class HomeIndex extends React.Component {
               </h2>
             </header>
             <p>
-              While at Towson University, I have learned how to constuctively
+              While at Towson University, I have learned how to constructively
               use data structures, algorithms, algorithm analysis, and design
               patterns.
               <br />
