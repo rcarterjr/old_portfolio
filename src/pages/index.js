@@ -12,7 +12,7 @@ import octocatThumb from '../assets/images/thumbs/octocat.png'
 
 import reactPortfolio from '../assets/images/fulls/reactPortfolio.png'
 import compilerDemo from '../assets/images/fulls/compilerDemo.gif'
-import weatherappFull from '../assets/images/fulls/weatherappDemo.gif'
+import weatherappFull from '../assets/images/fulls/weatherAppDemo.gif'
 import etchDemo from '../assets/images/fulls/etchsketchdemo.gif'
 
 import resume from '../assets/RussellCarterResume.pdf'
