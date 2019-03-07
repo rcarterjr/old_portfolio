@@ -4,31 +4,33 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Gallery from '../components/Gallery'
 
-import thumb01 from '../assets/images/thumbs/Scala.jpeg'
-import thumb02 from '../assets/images/thumbs/01.png'
+import scalaThumb from '../assets/images/thumbs/Scala.jpeg'
+import reactThumb from '../assets/images/thumbs/01.png'
 import weatherappThumb from '../assets/images/thumbs/weatherappThumb.png'
-import thumb05 from '../assets/images/thumbs/etch.png'
-import thumb06 from '../assets/images/thumbs/octocat.png'
+import etchThumb from '../assets/images/thumbs/etch.png'
+import octocatThumb from '../assets/images/thumbs/octocat.png'
 
-import full01 from '../assets/images/fulls/compilerDemo.gif'
-import weatherappFull from '../assets/images/fulls/weatherappFull.png'
-import full05 from '../assets/images/fulls/etchsketchdemo.gif'
+import reactPortfolio from '../assets/images/fulls/reactPortfolio.png'
+import compilerDemo from '../assets/images/fulls/compilerDemo.gif'
+import weatherappFull from '../assets/images/fulls/weatherappDemo.gif'
+import etchDemo from '../assets/images/fulls/etchsketchdemo.gif'
 
 import resume from '../../public/RussellCarterResume.pdf'
 
 // adjust thumb sizes to 370 x 217 before importing them
+// full ~~> 630 x 375
 const DEFAULT_IMAGES = [
   {
     id: '1',
-    src: full01,
-    thumbnail: thumb01,
+    src: compilerDemo,
+    thumbnail: scalaThumb,
     caption: 'Compiler',
     description: 'Gittex to HTML compiler made in Scala. Click for demo.',
   },
   {
     id: '2',
-    src: thumb02,
-    thumbnail: thumb02,
+    src: reactPortfolio,
+    thumbnail: reactThumb,
     caption: 'React Portfolio',
     description:
       'My first portfolio that I created with ReactJS and Bootstrap.',
@@ -43,23 +45,24 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '4',
-    src: full05,
-    thumbnail: thumb05,
+    src: etchDemo,
+    thumbnail: etchThumb,
     caption: 'Etch-A-Sketch',
-    description: 'Etch a sketch using a HTML canvas and vanilla JavaScript',
+    description:
+      'Etch a sketch using a HTML canvas and vanilla JavaScript using the WASD keys',
   },
   {
     id: '5',
-    src: full05,
-    thumbnail: thumb06,
+    src: octocatThumb,
+    thumbnail: octocatThumb,
     caption: 'Coding Challenge',
     description:
       'One vs one coding challenege web app built in ReactJS, Node.js, and MongoDB',
   },
   {
     id: '6',
-    src: full05,
-    thumbnail: thumb06,
+    src: octocatThumb,
+    thumbnail: octocatThumb,
     caption: 'Hotel Management',
     description:
       'Hotel management project created with ReactJS, Node.js, and MySQL.',
@@ -164,8 +167,8 @@ class HomeIndex extends React.Component {
                 })
               )}
             />
-            The above two projects are term projects for my last year at the
-            university. Check github to watch them come to life!
+            The above two projects are term projects for my last semester at the
+            university. Follow me on GitHub to watch them come to life!
             {/* <ul className="actions">
               <li>
                 <a href="#" className="button">

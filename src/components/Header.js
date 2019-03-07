@@ -20,7 +20,7 @@ class Header extends React.Component {
             <div className="inner">
               <img src={avatar} alt="" className="image avatar" />
               <h1>
-                <strong>I am Russell</strong>, and this is my portfolio created
+                <strong>I am Russell</strong>, welcome to my portfolio created
                 with Gatsby and ReactJS.
               </h1>
             </div>
