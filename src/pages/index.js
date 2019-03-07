@@ -15,7 +15,7 @@ import compilerDemo from '../assets/images/fulls/compilerDemo.gif'
 import weatherappFull from '../assets/images/fulls/weatherappDemo.gif'
 import etchDemo from '../assets/images/fulls/etchsketchdemo.gif'
 
-import resume from '../../public/RussellCarterResume.pdf'
+import resume from '../assets/RussellCarterResume.pdf'
 
 // adjust thumb sizes to 370 x 217 before importing them
 // full ~~> 630 x 375
