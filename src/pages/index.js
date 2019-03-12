@@ -65,7 +65,7 @@ const DEFAULT_IMAGES = [
     thumbnail: octocatThumb,
     caption: 'Hotel Management',
     description:
-      'Hotel management project created with ReactJS, Node.js, and MySQL.',
+      'Hotel management system created with ReactJS, Node.js, and MySQL.',
   },
 ]
 
